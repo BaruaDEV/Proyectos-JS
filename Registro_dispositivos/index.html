@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+    <head>
+        <title>Registro de dispositivos</title>
+        <link rel="stylesheet" href="myStyle.css">
+        <link rel="shortcut icon" href="../imagenes/calculadora.png">
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script src="miScript.js"></script>
+    </head>
+    <body onload="obtenerTodo()">
+        <div class="titulo">
+            <img src="../imagenes/info_cell.png">
+            <h1>Registro de dispositivos</h1>
+        </div>
+            <hr>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Marca</th>
+                    <th>Modelo</th>
+                    <th>Color</th>
+                    <th>Almacenamiento</th>
+                    <th>Procesador</th>
+
+                </tr>
+            </thead>
+            <tbody id="tablaContenido">
+              
+            </tbody>
+        </table>
+        <div>
+            <h4>Consultar Dispositivo</h4>
+            <input type="number" id="miInput" placeholder="Ingrese un ID">
+            <button onclick="consultarId()">Consultar</button>
+            <hr>
+        </div>
+        <div>
+            <label for="txtMarca">Marca:</label>
+            <textarea id="txtMarca" rows="1" cols="30"></textarea><br>
+
+            <label for="txtModelo">Modelo:</label>
+            <textarea id="txtModelo" rows="1" cols="30"></textarea><br>
+
+            <label for="txtColor">Color:</label>
+            <textarea id="txtColor" rows="1" cols="30"></textarea><br>
+
+            <label for="txtAlmacen">Almacenamiento:</label>
+            <textarea id="txtAlmacen" rows="1" cols="30"></textarea><br>
+
+            <label for="txtProcesa">Procesador:</label>
+            <textarea id="txtProcesa" rows="1" cols="30"></textarea><br>
+
+            <button onclick="modificarDatos(document.getElementById('miInput').value,
+                document.getElementById('txtMarca').value,
+                document.getElementById('txtModelo').value,
+                document.getElementById('txtColor').value,
+                document.getElementById('txtAlmacen').value,
+                document.getElementById('txtProcesa').value,)">Modificar</button>
+            <button onclick="eliminarDatos(document.getElementById('miInput').value)">Eliminar</button>
+            <hr>
+        </div>
+        <div>
+            <h4>Agregar Dispositivo</h4>
+                <textarea class="add" id="agregarMarca" placeholder="Marca"></textarea><br>
+                <textarea class="add" id="agregarModelo" placeholder="Modelo"></textarea><br>
+                <textarea class="add" id="agregarColor" placeholder="Color"></textarea><br>
+                <textarea class="add" id="agregarAlmacen" placeholder="Almacenamiento"></textarea><br>
+                <textarea class="add" id="agregarProcesa" placeholder="Procesador"></textarea><br>
+
+            <button onclick="agregarDatos()">Agregar</button>
+        </div>
+    </body>
+</html>
