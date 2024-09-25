@@ -1,0 +1,60 @@
+/* App.module.css */
+
+body{
+    background-image: url('gamer.jpeg');
+    background-size: 35%;
+    background-repeat: repeat;
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+.container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .randomNumber {
+    color: greenyellow;
+
+  }
+  
+  .button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: lightblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .input {
+    padding: 5px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 2px solid #9e2f95;
+    width: 5%;
+    background-color: transparent;
+    color: white;
+  }
+  
+  .buttonCheck {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: lightgreen;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  h3{
+    display: inline-block;
+    font-size: 30px;
+    background-color:rgb(14, 13, 13);
+    padding: 1px 5px;
+    border-radius: 5px;
+
+  }
