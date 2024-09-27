@@ -64,7 +64,11 @@ export default {
                     id: 3,
                     name: 'Portfolio Personal',
                     description: 'Mi sitio web personal donde muestro mis proyectos y habilidades como desarrollador web.',
+<<<<<<< HEAD
                     link: '#',
+=======
+                    link: 'https://github.com/BaruaDEV/Proyectos-JS/tree/main/portafolio-vue',
+>>>>>>> 6b55eeb (Reinicialización del repositorio después de borrar .git)
                     img: pf1Image,
                     img1: pf2Image,
                 },

@@ -12,6 +12,7 @@
         </div>
     
         <a href="https://www.linkedin.com/in/mauro-barua-b2b549273/">
+<<<<<<< HEAD
         <img src="@/assets/linkedin.png" alt="link a linkedin" class="img-link">
         </a>
         <a href="https://github.com/BaruaDEV">
@@ -19,6 +20,15 @@
         </a>
         <a href="https://www.instagram.com/maurobarua/">
         <img src="@/assets/logo-ig.png" alt="link a IG" class="img-link">
+=======
+        <img src="@/assets/linkedin.png" alt="link a linkedin" class="img-link" target="_blank">
+        </a>
+        <a href="https://github.com/BaruaDEV">
+        <img src="@/assets/logotipo-de-github.png" alt="link a github" class="img-link" target="_blank">
+        </a>
+        <a href="https://www.instagram.com/maurobarua/">
+        <img src="@/assets/logo-ig.png" alt="link a IG" class="img-link" target="_blank">
+>>>>>>> 6b55eeb (Reinicialización del repositorio después de borrar .git)
         </a>
     </div>
 </template>
